@@ -1,0 +1,25 @@
+% Auto-generated: do not edit by hand
+\name{discordCrate}
+
+\alias{discordCrate}
+
+\title{DiscordCrate component}
+
+\description{
+
+}
+
+\usage{
+discordCrate(id=NULL, channel=NULL, server=NULL)
+}
+
+\arguments{
+\item{id}{Character. }
+
+\item{channel}{Character. }
+
+\item{server}{Character. }
+}
+
+\value{named list of JSON elements corresponding to React.js properties and their values}
+

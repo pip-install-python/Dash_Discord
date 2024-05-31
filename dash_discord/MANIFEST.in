@@ -1,0 +1,11 @@
+include dash_discord/dash_discord.min.js
+include dash_discord/dash_discord.min.js.map
+include dash_discord/async-*.js
+include dash_discord/async-*.js.map
+include dash_discord/*-shared.js
+include dash_discord/*-shared.js.map
+include dash_discord/metadata.json
+include dash_discord/package-info.json
+include README.md
+include LICENSE
+include package.json
