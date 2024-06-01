@@ -1,6 +1,6 @@
 Package: dashDiscord
 Title: Discord Component for the Dash Framework
-Version: 0.0.1
+Version: 0.0.3
 Description: Discord Component for the Dash Framework
 Depends: R (>= 3.0.2)
 Imports: 

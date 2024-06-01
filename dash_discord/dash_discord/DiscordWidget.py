@@ -13,24 +13,26 @@ Keyword arguments:
 
 - avatar (string; optional)
 
-- channel (string; default '355719584830980096')
+- channel (string; default '1246197743781810332')
 
 - className (string; optional)
 
-- server (string; default '299881420891881473')
+- height (string; default '100%')
 
-- style (dict; optional)
+- server (string; default '1246197743307980940')
 
-- username (string; optional)"""
+- username (string; optional)
+
+- width (string; default '100%')"""
     _children_props = []
     _base_nodes = ['children']
     _namespace = 'dash_discord'
     _type = 'DiscordWidget'
     @_explicitize_args
-    def __init__(self, id=Component.UNDEFINED, server=Component.UNDEFINED, channel=Component.UNDEFINED, username=Component.UNDEFINED, avatar=Component.UNDEFINED, className=Component.UNDEFINED, style=Component.UNDEFINED, **kwargs):
-        self._prop_names = ['id', 'avatar', 'channel', 'className', 'server', 'style', 'username']
+    def __init__(self, id=Component.UNDEFINED, server=Component.UNDEFINED, channel=Component.UNDEFINED, username=Component.UNDEFINED, avatar=Component.UNDEFINED, className=Component.UNDEFINED, width=Component.UNDEFINED, height=Component.UNDEFINED, **kwargs):
+        self._prop_names = ['id', 'avatar', 'channel', 'className', 'height', 'server', 'username', 'width']
         self._valid_wildcard_attributes =            []
-        self.available_properties = ['id', 'avatar', 'channel', 'className', 'server', 'style', 'username']
+        self.available_properties = ['id', 'avatar', 'channel', 'className', 'height', 'server', 'username', 'width']
         self.available_wildcard_properties =            []
         _explicit_args = kwargs.pop('_explicit_args')
         _locals = locals()

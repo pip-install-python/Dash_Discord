@@ -12,12 +12,13 @@ Keyword arguments:
 - `avatar` (String; optional)
 - `channel` (String; optional)
 - `className` (String; optional)
+- `height` (String; optional)
 - `server` (String; optional)
-- `style` (Dict; optional)
 - `username` (String; optional)
+- `width` (String; optional)
 """
 function discordwidget(; kwargs...)
-        available_props = Symbol[:id, :avatar, :channel, :className, :server, :style, :username]
+        available_props = Symbol[:id, :avatar, :channel, :className, :height, :server, :username, :width]
         wild_props = Symbol[]
         return Component("discordwidget", "DiscordWidget", "dash_discord", available_props, wild_props; kwargs...)
 end

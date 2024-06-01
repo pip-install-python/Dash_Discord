@@ -3,7 +3,7 @@ module DashDiscord
 using Dash
 
 const resources_path = realpath(joinpath( @__DIR__, "..", "deps"))
-const version = "0.0.1"
+const version = "0.0.3"
 
 include("jl/discordcrate.jl")
 include("jl/discordwidget.jl")

@@ -3,15 +3,17 @@ import PropTypes from 'prop-types';
 import WidgetBot from '@widgetbot/react-embed'
 
 const DiscordWidget = (props) => {
-    const {id, server, channel, avatar, username, className, style} = props;
+    const {id, server, channel, avatar, username, className, width, height} = props;
 
     return (
-        <div id={id} className={className} style={{...style, height: '50vh', width: '50vw'}}>
+        <div id={id} className={className}>
             <WidgetBot
                 server={server}
                 channel={channel}
                 username={username}
                 avatar={avatar}
+                width={width}
+                height={height}
               />
         </div>
     );
@@ -23,7 +25,8 @@ DiscordWidget.defaultProps = {
     username: null,
     avatar: null,
     className: null,
-    style: {}
+    width: '100%',
+    height: '100%',
 };
 
 DiscordWidget.propTypes = {
@@ -33,7 +36,8 @@ DiscordWidget.propTypes = {
     username: PropTypes.string,
     avatar: PropTypes.string,
     className: PropTypes.string,
-    style: PropTypes.object
+    width: PropTypes.string,
+    height: PropTypes.string,
 };
 
 export default DiscordWidget;

@@ -11,7 +11,7 @@
 
 \usage{
 discordWidget(id=NULL, avatar=NULL, channel=NULL, className=NULL,
-server=NULL, style=NULL, username=NULL)
+height=NULL, server=NULL, username=NULL, width=NULL)
 }
 
 \arguments{
@@ -23,11 +23,13 @@ server=NULL, style=NULL, username=NULL)
 
 \item{className}{Character. }
 
+\item{height}{Character. }
+
 \item{server}{Character. }
 
-\item{style}{Named list. }
-
 \item{username}{Character. }
+
+\item{width}{Character. }
 }
 
 \value{named list of JSON elements corresponding to React.js properties and their values}

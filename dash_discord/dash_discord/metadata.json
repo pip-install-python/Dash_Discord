@@ -18,7 +18,7 @@
         "required": false,
         "description": "",
         "defaultValue": {
-          "value": "'299881420891881473'",
+          "value": "'1246197743307980940'",
           "computed": false
         }
       },
@@ -29,9 +29,93 @@
         "required": false,
         "description": "",
         "defaultValue": {
-          "value": "'355719584830980096'",
+          "value": "'1246197743781810332'",
           "computed": false
         }
+      },
+      "username": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "avatar": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "location": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": ""
+      },
+      "color": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "glyph": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": ""
+      },
+      "notifications": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": ""
+      },
+      "indicator": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": ""
+      },
+      "timeout": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": ""
+      },
+      "allChannelNotifications": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": ""
+      },
+      "embedNotificationTimeout": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": ""
+      },
+      "defer": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": ""
+      },
+      "shard": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
       }
     }
   },
@@ -54,7 +138,7 @@
         "required": false,
         "description": "",
         "defaultValue": {
-          "value": "'299881420891881473'",
+          "value": "'1246197743307980940'",
           "computed": false
         }
       },
@@ -65,7 +149,7 @@
         "required": false,
         "description": "",
         "defaultValue": {
-          "value": "'355719584830980096'",
+          "value": "'1246197743781810332'",
           "computed": false
         }
       },
@@ -102,14 +186,25 @@
           "computed": false
         }
       },
-      "style": {
+      "width": {
         "type": {
-          "name": "object"
+          "name": "string"
         },
         "required": false,
         "description": "",
         "defaultValue": {
-          "value": "{}",
+          "value": "'100%'",
+          "computed": false
+        }
+      },
+      "height": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "'100%'",
           "computed": false
         }
       }
